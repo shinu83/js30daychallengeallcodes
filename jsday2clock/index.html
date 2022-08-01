@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="clock--wrapper">
+                <h2>Time</h2>
+                <div class="clock">
+                    <svg class="clock-face" width="300" height="300" viewBox="-150 -150 300 300">
+                        <!-- <rect x="80" y="20" rx="0" ry="20" width="150" height="150" style="fill:red;stroke:black;stroke-width:5;opacity:2" />
+                        Sorry, your browser does not support inline SVG. -->
+                        <circle class="ring--seconds" cx="0" cy="0" r="145" pathlength="60"  />
+                        <circle class="ring--hours" cx="0" cy="0" r="145" pathlength="12" />
+                        <circle class="ring--center" cx="0" cy="0" r="3"  />
+                        
+                        <line class="hand--minute" x1="0" y1="2" x2="0" y2="-110" />
+                        <line class="hand--hour" x1="0" y1="2" x2="0" y2="-60" />
+                        <line class="hand--second" x1="0" y1="2" x2="0" y2="-130" />
+                        <text x="50" y="-5" class="date"> 10 may</text>
+                        <text x="55" y="20" class="am_pm"> pm</text>
+
+
+
+
+                      </svg>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
